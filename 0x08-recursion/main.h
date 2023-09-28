@@ -23,4 +23,6 @@ int wildcmp(char *s1, char *s2);
 
 int square_root(int i, int j);
 
+int prime(int i, int j);
+
 #endif
