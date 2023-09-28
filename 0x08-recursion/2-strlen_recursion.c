@@ -3,16 +3,16 @@
 /**
  * _strlen_recursion - A function that returns the length of a string.
  * @s: char type
- * Return: void
+ * Return: int
 */
 int _strlen_recursion(char *s)
 {
 	int i = 0;
 
-	while (*s != '\0')
+	if (*s != '\0')
 	{
 		i++;
-		s++;
+		i += _strlen_recursion(s + 1);
 	}
 	return (i);
 }
