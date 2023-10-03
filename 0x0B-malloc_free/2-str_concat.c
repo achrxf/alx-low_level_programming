@@ -10,7 +10,8 @@
 int str_length(char *l)
 {
 	int i = 0;
-	while ( l[i] != '\0')
+
+	while (l[i] != '\0')
 	{
 		i++;
 	}
@@ -43,7 +44,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (0);
 	}
-	while ( c <= a + b)
+	while (c <= a + b)
 	{
 		if (c < a)
 		{
