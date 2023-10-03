@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * *_strdup - A function that returns a pointer to a newly allocated space in memory.
+ * *_strdup - A function that returns a pointer to a newly allocated space.
  * @str: char
  * Return: char
 */
@@ -27,7 +27,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		while(i < j)
+		while (i < j)
 		{
 			p[i] = str[i];
 			i++;
