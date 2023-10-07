@@ -28,7 +28,7 @@ int integer(char *p)
 */
 int main(int argc, char *argv[])
 {
-	int res, i, conv;
+	int res = 0, i, conv;
 
 	if (argc < 3)
 	{
