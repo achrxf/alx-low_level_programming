@@ -9,18 +9,16 @@
 */
 int main(int argc, char *argv[])
 {
-	int i, result;
+	int result, num1, num2;
 
 	if (argc != 3)
 	{
 		printf("Error\n");
 		exit(-1);
 	}
-	for (i = 0; i < argc; i++)
-	{
-		int num = atoi(argv[i]);
-		result = num + num;
-	}
-	printf ("%d\n", result);
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	result = num1 * num2;
+	printf("%d\n", result);
 	return (0);
 }
