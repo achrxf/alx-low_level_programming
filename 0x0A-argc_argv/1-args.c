@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main _ prints the number of arguments passed into it.
+ * main - prints the number of arguments passed into it.
  * @argc: int
  * @argv: char
  * Return: 0
